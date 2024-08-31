@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+        .ad-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+        .ad-title {
+            font-size: 2.5em;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .ad-description {
+            font-size: 1.2em;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        .ad-image {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .theme-selector-container {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+        }
+        .theme-select-icon {
+            height: 20px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .bg-dark {
+            background-color: #333;
+            color: #EEEDEB;
+        }
+        .bg-light {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+    </style>
+</head>
+<body id="main-body" class="bg-light">
+    <div class="theme-selector-container">
+        <span>Switch Theme:</span>
+        <img src="sun.png" alt="Light Theme" class="theme-select-icon" onclick="lightMode()">
+        <img src="moon.png" alt="Dark Theme" class="theme-select-icon" onclick="darkMode()">
+    </div>
+  
+    
+   
+ 
+</body>
+</html>
