@@ -21,8 +21,9 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            width: 80%;
+            margin: 10px;
             max-width: 600px;
+            border-radius: 20px;
             text-align: center;
         }
         .ad-title {
@@ -48,14 +49,15 @@
             background-color: #45a049;
         }
         .ad-image {
+            margin-top: 90px;
             max-width: 100%;
+            height: 200px;
             border-radius: 10px;
             margin-bottom: 20px;
         }
-        .theme-selector-container {
+        .theme-selector {
             position: fixed;
-            right: 20px;
-            top: 20px;
+            top: 10px;
         }
         .theme-select-icon {
             height: 20px;
@@ -73,14 +75,14 @@
     </style>
 </head>
 <body id="main-body" class="bg-light">
-    <div class="theme-selector-container">
-        <span>Switch Theme:</span>
+    <div class="theme-selector">
+        
         <img src="sun.png" alt="Light Theme" class="theme-select-icon" onclick="lightMode()">
         <img src="moon.png" alt="Dark Theme" class="theme-select-icon" onclick="darkMode()">
     </div>
     <div class="ad-container">
-        <img src="./hanuman.jpg" alt="Titan Watch" class="ad-image">
-        <h1 class="ad-title">The Legend of Hanuman</h1>
+        <img src="./micky.jpg" alt="Titan Watch" class="ad-image">
+        <h1 class="ad-title">Disney micky mouse</h1>
     </div>
     
     <script>
